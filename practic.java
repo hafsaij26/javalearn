@@ -5,6 +5,9 @@ class practic{
             Scanner sc = new Scanner(System.in);
             String name = sc.nextLine();
             System.out.println("Hello, " + name);
+            int age = sc.nextInt();
+            System.out.println("You are " + age + " years old.");
+
     }
 }
 //development kit
