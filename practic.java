@@ -1,13 +1,22 @@
 import java.util.*; 
 class practic{
     public static void main (String args[]){
-        System.out.println("hello world");
-            Scanner sc = new Scanner(System.in);
-            String name = sc.nextLine();
-            System.out.println("Hello, " + name);
-            int age = sc.nextInt();
-            System.out.println("You are " + age + " years old.");
+        
 
+        for(int k=1; k<16; k++){
+            if(k%3==0){
+                System.out.println("fizz");
+            }
+            else if(k%5==0){
+                System.out.println("buzz");
+            }
+            else if(k%3==0 && k%5==0){
+                System.out.println("fizzbuzz");
+            }
+            else{
+                System.out.println(k);
+            }
+        }
     }
 }
 //development kit
