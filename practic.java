@@ -1,21 +1,16 @@
 import java.util.*; 
 class practic{
     public static void main (String args[]){
-        
-
-        for(int k=1; k<16; k++){
-            if(k%3==0){
-                System.out.println("fizz");
+        int m=3;
+        for(int i = 0; i<m; i++){
+            for (int s=0; s<m-i; s++){
+                System.out.print(" ");
             }
-            else if(k%5==0){
-                System.out.println("buzz");
+            for(int j=0; j<i+1; j++){
+                System.out.print("*");
             }
-            else if(k%3==0 && k%5==0){
-                System.out.println("fizzbuzz");
-            }
-            else{
-                System.out.println(k);
-            }
+            System.out.println();
+            
         }
     }
 }
