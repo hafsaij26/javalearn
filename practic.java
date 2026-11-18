@@ -1,16 +1,14 @@
 import java.util.*; 
 class practic{
     public static void main (String args[]){
-        int m=3;
-        for(int i = 0; i<m; i++){
-            for (int s=0; s<m-i; s++){
+        for(int i=5; i>0; i--){
+            for(int j=i; j>0; j--){
                 System.out.print(" ");
             }
-            for(int j=0; j<i+1; j++){
+            for(int k=0; k<5; k++){
                 System.out.print("*");
             }
             System.out.println();
-            
         }
     }
 }
