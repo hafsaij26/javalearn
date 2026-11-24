@@ -1,14 +1,5 @@
-const student = {
-    name: "hafsa",
-    age: 20,
-    grade: "A",
-    rollNumber: 12345,
-    semester: 4,
-    displayInfo: function() {
-        console.log(`Name: ${this.name}`);
-        console.log(`Age: ${this.age}`);
-        console.log(`Grade: ${this.grade}`);
-        console.log(`Roll Number: ${this.rollNumber}`);
-        console.log(`Semester: ${this.semester}`);
-    }
-}
+console.log("Welcome to JavaScript.");
+let a=25;
+let b=50;
+let result = a + b;
+console.log("The result of adding a and b is: " + result);
